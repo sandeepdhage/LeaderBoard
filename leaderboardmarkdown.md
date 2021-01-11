@@ -177,7 +177,7 @@ Lets build the leader board with 4 game modes.
       Data Loss:
         System gurantees 100% data processing gurantee , at application level time stamps at score level and events saved by redis event streams  allow failover without a data loss.
        
-      Alerting and monitoring is taked care by Redis Sintel , as well as application level notifications could be implemented say after system starts , process certain events etc.
+      Alerting and monitoring is taken care by Redis Sintel , as well as application level notifications could be implemented say after system starts , process certain events etc.
       This could be hooked on to incident mamnagement tools. 
       
       Blue green kind of deployment strategies should be able to improve on  downtime etc during changes in the system.
